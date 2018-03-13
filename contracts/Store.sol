@@ -11,7 +11,7 @@ contract SimpleStorage{
         x = x_;
     }
 
-    function seyHi() public constant returns(uint){
+    function seyHi() public constant returns(bool){
         return true;
     }
 }
