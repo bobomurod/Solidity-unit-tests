@@ -7,7 +7,7 @@ contract SimpleStorage{
     }
 
 
-    funciton set(uint x_) public {
+    function set(uint x_) public {
         x = x_;
     }
 
