@@ -14,4 +14,9 @@ contract SimpleStorage{
     function seyHi() public constant returns(bool){
         return true;
     }
+
+    function myString(string _myString) public constant returns(string) {
+        return _myString;
+    }
+
 }
